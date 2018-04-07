@@ -1,0 +1,22 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#board > div {
+    height: 30px;
+  }
+  
+  .white, .black {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+  
+  .white {
+    background-color: white;
+  }
+  
+  .black {
+    background-color: black;
+  }
